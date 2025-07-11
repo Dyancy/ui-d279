@@ -38,54 +38,48 @@
             <form action="">
                 <p>Request Consultation Below:</p>
                 <div>
-                    <label for="">Time Zone:</label>
-                    <input type="radio" id="pacific">
-                    <label for="">Pacific</label>
-    
-                    <input type="radio" id="mountain">
-                    <label for="">Mountain</label>
-    
-                    <input type="radio" id="central">
-                    <label for="">Central</label>
-    
-                    <input type="radio" id="eastern">
-                    <label for="">Eastern</label>
+                    <label for="timez">Select your Time Zone:</label>
+                    <select id="timez" name="timez" required>
+                        <option value="pacific">Pacific</option>
+                        <option value="moutnain">Mountain</option>
+                        <option value="central">Central</option>
+                        <option value="easter">Eastern</option>
+                    </select>
                 </div>
                     
                 <div>
                     <label for="">Name:</label>
-                    <input type="text" id="name"></div>
+                    <input type="text" id="name" required>
+                </div>
+                
                 <div>
-
-                        <label for="">Email:</label>
-                    <input type="email" id="email">
-                    </div>
-                    
+                    <label for="">Email:</label>
+                    <input type="email" id="email" required>
+                </div>
                     
                     <div>
-                        <label for="Phone">Phone:</label>
-                        <input type="text" id="phone">
+                        <label for="phone">Phone:</label>
+                        <input type="text" id="phone" required>
                     </div>
-                    
-    
+                
                     <div>
-                        <label for="Phone">Pet Name:</label>
-                        <input type="text" id="phone">
+                        <label for="petname">Pet Name:</label>
+                        <input type="text" id="petname" required>
                     </div>
     
                     <div>
-                        <label for="Phone">Pet Type:</label>
-                        <input type="text" id="phone">
+                        <label for="pettype">Pet Type:</label>
+                        <input type="text" id="pettype" required>
                     </div>
     
                     <div>
-                        <label for="Phone">Pet Age:</label>
-                        <input type="text" id="phone">
+                        <label for="petage">Pet Age:</label>
+                        <input type="text" id="petage" required>
                     </div>
 
                     <div>
                         <label for="button">Submit:</label>
-                        <button>Request Consultation</button>
+                        <button id="button">Request Consultation</button>
                     </div>
             </form>
         </div>
